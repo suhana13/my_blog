@@ -12,9 +12,8 @@ enableEmoji=true
 
 
 [params]
-  # site_logo = "img/sb.jpg"
   background_color_class = "bg-black"
-  featured_image = "img/bg.JPG"
+  featured_image = "img/bg.jpg"
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
   favicon = ""
