@@ -1,3 +1,69 @@
-baseURL = "http://example.org/"
+title = "Suhana Bedi"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "gohugo-theme-ananke"
+copyright = "Suhana Bedi"
+googleAnalytics = ""
+enableRobotsTXT = true
+enableEmoji=true
+
+
+
+
+
+[params]
+  # site_logo = "img/sb.jpg"
+  background_color_class = "bg-black"
+  featured_image = "img/bg.JPG"
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  favicon = ""
+  custom_css = ["dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css", "dist/css/app.7e7787cc1402d7de28bc90f7e65adf96.css"]
+  show_reading_time=true
+  github = "suhana13"
+  linkedin = "https://www.linkedin.com/in/"
+  facebook = "Suhana Bedi"
+  gitlab = "sxb180088@utdallas.edu"
+  email = "suhanabedi13@gmail.com"
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "Resumé"
+  name = "Resumé"
+  title = "Resumé"
+  url = "/Resumé/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Posts"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+
