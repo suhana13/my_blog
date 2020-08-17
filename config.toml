@@ -13,19 +13,19 @@ enableEmoji=true
 
 [params]
   background_color_class = "bg-black"
-  featured_image = "/img/bg.jpg"
+  featured_image = "/images/bg.jpg"
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
   favicon = ""
   custom_css = ["dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css", "dist/css/app.7e7787cc1402d7de28bc90f7e65adf96.css"]
   show_reading_time=true
-  github = "suhana13"
+  github = "https://github.com/suhana13"
   linkedin = "https://www.linkedin.com/in/"
-  facebook = "Suhana Bedi"
-  gitlab = "sxb180088@utdallas.edu"
-  email = "suhanabedi13@gmail.com"
+  facebook = "https://www.facebook.com/suhana.bedi.718/"
+  youtube = "https://www.youtube.com/channel/UCi0sVOOjG3Xgqj4UOacE4Dw?view_as=subscriber"
+  gmail = "suhanabedi13@gmail.com"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
-
+  recent_posts_number = 2
 
 [menu]
 
@@ -43,12 +43,20 @@ enableEmoji=true
   url = "/Resumé/"
   weight = -110
 
+
 [[menu.main]]
-  identifier = "blog"
-  name = "Posts"
+  identifier = "Art"
+  name = "Artwork"
   title = "Blog section"
-  url = "/post/"
+  url = "/art/"
   weight = -100
+
+[[menu.main]]
+  identifier = "Book"
+  name = "Book"
+  title = "Blog section"
+  url = "/book/"
+  weight = -90
 
 [sitemap]
   changefreq = "monthly"
@@ -66,3 +74,38 @@ enableEmoji=true
     enableDNT = true
     simple = false
 
+[more]
+other = "More"
+
+[allTitle]
+other = "All {{.Title }}"
+
+[recentTitle]
+other = "Recent {{.Title }}"
+
+[readMore]
+other = "read more"
+
+[whatsInThis]
+other = "What's in this {{ .Type }}"
+
+[related]
+other = "Related"
+
+[yourName]
+other = "Your Name"
+
+[emailAddress]
+other = "Email Address"
+
+[message]
+other = "Message"
+
+[emailRequiredNote]
+other = "An email address is required."
+
+[send]
+other = "Send"
+
+[taxonomyPageList]
+other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"

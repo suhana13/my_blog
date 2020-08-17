@@ -1,6 +1,6 @@
 ---
-title: "Hello there ! I am Suhana "
-featured_image: '/img/bg.jpg'
+title: "Hey there ! I am Suhana "
+featured_image: '/images/bg.jpg'
 description: "I am an undergraduate student majoring in Data Science with a minor in Biological Sciences..."
 ---
 Welcome to my blog!
